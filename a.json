@@ -1,0 +1,65 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "movie": {
+      "id": 37384,
+      "url": "https://yts.mx/movies/jai-bhim-2021",
+      "imdb_code": "tt15097216",
+      "title": "Jai Bhim",
+      "title_english": "Jai Bhim",
+      "title_long": "Jai Bhim (2021)",
+      "slug": "jai-bhim-2021",
+      "year": 2021,
+      "rating": 9.3,
+      "runtime": 164,
+      "genres": ["Crime", "Drama"],
+      "download_count": 61408,
+      "like_count": 45,
+      "description_intro": "Rajakannu and his wife Sengeni belong to a lower cast and works as labors in the field to protect it from rats thou they live life of poverty but are happy with what they have. Rajakannu and Sengeni plan a second child and soon Sengeni gives the good news once Rajkannu is called to the house of a upper caste man as a snake has sneaked inside his house.The next day theft of jewelry is reported in the same house suspicious raising towards Rajkannu .The cops got to arrest Rajkannu but he leaves the town for work following which the cops detain a pregnant Sengani and rest of family members asking them details about the Rajkannu.The cops trace Rajkannu and torture him and his brothers in jail asking him to confess the crime they did not commit later Sengeni finds that Rajkannu and his brother have eloped from the prison to escape torture.Mythra who teaches tribal village comes across a lawyer Chandru who fights for tribal people and after hearing story of Senegeni files a Habeas corpus case in court. \u2014alex.mjacko@gmail.com",
+      "description_full": "Rajakannu and his wife Sengeni belong to a lower cast and works as labors in the field to protect it from rats thou they live life of poverty but are happy with what they have. Rajakannu and Sengeni plan a second child and soon Sengeni gives the good news once Rajkannu is called to the house of a upper caste man as a snake has sneaked inside his house.The next day theft of jewelry is reported in the same house suspicious raising towards Rajkannu .The cops got to arrest Rajkannu but he leaves the town for work following which the cops detain a pregnant Sengani and rest of family members asking them details about the Rajkannu.The cops trace Rajkannu and torture him and his brothers in jail asking him to confess the crime they did not commit later Sengeni finds that Rajkannu and his brother have eloped from the prison to escape torture.Mythra who teaches tribal village comes across a lawyer Chandru who fights for tribal people and after hearing story of Senegeni files a Habeas corpus case in court. \u2014alex.mjacko@gmail.com",
+      "yt_trailer_code": "ElXnVVDl8cA",
+      "language": "ta",
+      "mpa_rating": "",
+      "background_image": "https://yts.mx/assets/images/movies/jai_bhim_2021/background.jpg",
+      "background_image_original": "https://yts.mx/assets/images/movies/jai_bhim_2021/background.jpg",
+      "small_cover_image": "https://yts.mx/assets/images/movies/jai_bhim_2021/small-cover.jpg",
+      "medium_cover_image": "https://yts.mx/assets/images/movies/jai_bhim_2021/medium-cover.jpg",
+      "large_cover_image": "https://yts.mx/assets/images/movies/jai_bhim_2021/large-cover.jpg",
+      "torrents": [
+        {
+          "url": "https://yts.mx/torrent/download/704092B55506327B4FBB226EC8F3F57644781153",
+          "hash": "704092B55506327B4FBB226EC8F3F57644781153",
+          "quality": "720p",
+          "type": "web",
+          "seeds": 89,
+          "peers": 9,
+          "size": "1.47 GB",
+          "size_bytes": 1578400481,
+          "date_uploaded": "2021-11-03 16:12:36",
+          "date_uploaded_unix": 1635952356
+        },
+        {
+          "url": "https://yts.mx/torrent/download/AD6FA54A7C7E99510FF1433EB736C31E44F442A0",
+          "hash": "AD6FA54A7C7E99510FF1433EB736C31E44F442A0",
+          "quality": "1080p",
+          "type": "web",
+          "seeds": 140,
+          "peers": 15,
+          "size": "3.02 GB",
+          "size_bytes": 3242700308,
+          "date_uploaded": "2021-11-03 19:19:18",
+          "date_uploaded_unix": 1635963558
+        }
+      ],
+      "date_uploaded": "2021-11-03 16:12:36",
+      "date_uploaded_unix": 1635952356
+    }
+  },
+  "@meta": {
+    "server_time": 1643851552,
+    "server_timezone": "CET",
+    "api_version": 2,
+    "execution_time": "0 ms"
+  }
+}
