@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/movie-app-react/static/css/main.b2842dbf.css",
-    "main.js": "/movie-app-react/static/js/main.274a80c6.js",
-    "index.html": "/movie-app-react/index.html",
-    "main.b2842dbf.css.map": "/movie-app-react/static/css/main.b2842dbf.css.map",
-    "main.274a80c6.js.map": "/movie-app-react/static/js/main.274a80c6.js.map"
+    "main.css": "/elegant-one.dev/static/css/main.b2842dbf.css",
+    "main.js": "/elegant-one.dev/static/js/main.274a80c6.js",
+    "index.html": "/elegant-one.dev/index.html",
+    "main.b2842dbf.css.map": "/elegant-one.dev/static/css/main.b2842dbf.css.map",
+    "main.274a80c6.js.map": "/elegant-one.dev/static/js/main.274a80c6.js.map"
   },
   "entrypoints": [
     "static/css/main.b2842dbf.css",
