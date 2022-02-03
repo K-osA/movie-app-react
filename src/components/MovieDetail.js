@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import styles from "./MovieDetail.module.css";
 function MovieDetail({
   url,
   title,
@@ -11,27 +12,37 @@ function MovieDetail({
   img,
 }) {
   return (
-    <div>
-      <Link to={`/`}>Go Back</Link>
-      <div></div>
-      <img src={img} alt={title}></img>
-      <h2>{title}</h2>
-      <div>
-        <a href={url}>Click to MOVIE</a>
-        <div></div>
-        <span>Rating: {rating}</span>
-        <div></div>
-        <span>Runtime: {runtime} </span>
-        <div></div>
-        <span>Download_count: {download_count}</span>
-        <p>Genres</p>
-        {genres ? (
-          <ul>
-            {genres.map((genre, index) => (
-              <li key={index}>{genre}</li>
-            ))}
-          </ul>
-        ) : null}
+    <div className={styles.movie}>
+      <div className={styles.movie__simple}>
+        <div className={styles.movie__simple__left}>
+          <img src={img} alt={title} className={styles.movie__img}></img>
+        </div>
+        <div className={styles.movie__simple__right}>
+          <h2 className={styles.movie__title}>{title}</h2>
+          <div className={styles.movie__info}>
+            <span>Rating: {rating}</span>
+            <span>Runtime: {runtime} </span>
+            <span>Download_count: {download_count}</span>
+          </div>
+          <div className={styles.movie__info__genres}>
+            Genres:
+            {genres ? (
+              <ul className={styles.movie__genres}>
+                {genres.map((genre, index) => (
+                  <li key={index}>{genre}</li>
+                ))}
+              </ul>
+            ) : null}
+          </div>
+        </div>
+      </div>
+      <div className={styles.button__top}>
+        <Link to={`/`} className={styles.button}>
+          <button className={styles.button__btn}>Go Back</button>
+        </Link>
+        <a href={url} className={styles.button}>
+          <button className={styles.button__btn}>Click to MOVIE</button>
+        </a>
       </div>
       <hr />
       <p>{description}</p>
