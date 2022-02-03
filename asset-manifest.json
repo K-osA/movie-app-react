@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/elegant-one.dev/static/css/main.b2842dbf.css",
-    "main.js": "/elegant-one.dev/static/js/main.274a80c6.js",
-    "index.html": "/elegant-one.dev/index.html",
-    "main.b2842dbf.css.map": "/elegant-one.dev/static/css/main.b2842dbf.css.map",
-    "main.274a80c6.js.map": "/elegant-one.dev/static/js/main.274a80c6.js.map"
+    "main.css": "/www.elegant-one.dev/static/css/main.b2842dbf.css",
+    "main.js": "/www.elegant-one.dev/static/js/main.274a80c6.js",
+    "index.html": "/www.elegant-one.dev/index.html",
+    "main.b2842dbf.css.map": "/www.elegant-one.dev/static/css/main.b2842dbf.css.map",
+    "main.274a80c6.js.map": "/www.elegant-one.dev/static/js/main.274a80c6.js.map"
   },
   "entrypoints": [
     "static/css/main.b2842dbf.css",
