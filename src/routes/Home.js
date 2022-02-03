@@ -11,14 +11,12 @@ function Home() {
         "https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year"
       )
     ).json();
+    console.log(json.data.movies);
     setMovies(json.data.movies);
     setLoading(false);
-    // console.log(movies); ????????? empty
   };
-  useEffect(() => {
-    getMovies();
-    return () => setLoading(false);
-  }, []);
+  // eslint-disable-next-line
+  useEffect(() => getMovies(), []);
   return (
     <div>
       {loading ? (

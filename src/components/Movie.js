@@ -9,7 +9,11 @@ function Movie({ id, coverImg, title, summary, genres }) {
         <Link to={`/movie/${id}`}>{title}</Link>
       </h2>
       <p>{summary}</p>
-      <ul>{genres && genres.map((g) => <li key={g}>{g}</li>)}</ul>
+      <ul>
+        {genres?.map((g) => (
+          <li key={g}>{g}</li>
+        ))}
+      </ul>
     </div>
   );
 }

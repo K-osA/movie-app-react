@@ -21,10 +21,8 @@ function Detail() {
     ]);
     setLoading(false);
   };
-  useEffect(() => {
-    getMovie();
-    return () => setLoading(false);
-  }, []);
+  // eslint-disable-next-line
+  useEffect(() => getMovie(), []);
   return (
     <div>
       {loading ? (
